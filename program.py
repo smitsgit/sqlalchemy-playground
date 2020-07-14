@@ -5,7 +5,7 @@ from repo.models import *
 
 def main():
     session = SessionLocal()
-    user = User(name="Smital")
+    user = User(name="Don", full_name="Smital Desai", nick_name="Whats up", age=20)
     session.add(user)
     session.commit()
 
